@@ -1,0 +1,9 @@
+out(A,B,C):- v9(C),in(A,B,C).
+out(A,B,C):- end_position(A,J),my_succ(O,B),x2(G),add(B,G,H),add(G,H,I),in(A,O,P),different_value(P,C),add(B,K,J),in(A,K,C),in(A,L,C),my_succ(N,M),add(M,N,L),in(A,F,E),add(B,D,F),in(A,D,E).
+out(A,B,C):- my_succ(N,B),v0(J),different_value(C,J),in(A,B,M),v0(M),v0(O),in(A,N,O),in(A,K,C),in(A,L,C),in(A,E,C),add(D,E,B),add(B,F,D),in(A,G,H),add(B,G,I),in(A,I,H).
+out(A,B,C):- v5(F),v9(K),end_position(A,L),add(B,M,L),different_pos(B,M),different_value(O,C),in(A,N,O),lt(B,N),in(A,I,K),add(I,J,B),in(A,G,C),my_succ(G,H),add(H,G,B),in(A,D,F),add(B,D,E).
+out(A,B,C):- x2(J),in(A,J,C),add(B,J,K),my_succ(O,B),my_succ(Q,B),v0(R),in(A,Q,R),v4(D),different_value(D,C),x2(G),in(A,O,P),different_value(P,C),add(B,G,H),add(G,H,I),add(N,L,B),add(N,M,L),add(L,M,B),add(B,E,F).
+% accuracy: 99.03846153846155
+% learning time: 600
+% program size: 70
+% predictions: ([1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])

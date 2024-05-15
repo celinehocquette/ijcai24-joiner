@@ -1,0 +1,57 @@
+f(A):- tail(A,B),head(A,C),ci(C),head(B,C).
+f(A):- tail(A,B),head(B,C),head(A,C),cb(C).
+f(A):- head(A,C),tail(A,B),cj(C),head(B,C).
+f(A):- tail(A,B),head(A,C),cl(C),head(B,C).
+f(A):- head(A,C),cn(C),tail(A,B),head(B,C).
+f(A):- tail(A,B),head(B,D),cc(D),tail(B,C),head(C,D).
+f(A):- tail(A,B),head(B,D),tail(B,C),head(C,D),cb(D).
+f(A):- head(A,D),ce(D),tail(A,B),tail(B,C),head(C,D).
+f(A):- head(A,D),cg(D),tail(A,B),head(B,C),cc(C).
+f(A):- tail(A,B),head(A,D),cg(D),head(B,C),cj(C).
+f(A):- tail(A,B),head(A,D),head(B,C),ck(C),cg(D).
+f(A):- tail(A,B),head(A,D),cg(D),head(B,C),ch(C).
+f(A):- tail(A,B),head(B,C),cc(C),head(A,D),cl(D).
+f(A):- tail(A,B),head(B,C),cc(C),head(A,D),cm(D).
+f(A):- head(A,D),tail(A,B),head(B,C),cc(C),ci(D).
+f(A):- head(A,D),ce(D),tail(A,B),head(B,C),cc(C).
+f(A):- tail(A,B),head(A,D),head(B,C),cl(C),cn(D).
+f(A):- head(A,D),tail(A,B),head(B,C),cl(C),ch(D).
+f(A):- head(A,D),ci(D),tail(A,B),head(B,C),cl(C).
+f(A):- tail(A,B),head(A,D),cb(D),head(B,C),cl(C).
+f(A):- tail(A,B),head(A,D),cf(D),head(B,C),cl(C).
+f(A):- tail(A,B),head(B,C),ca(C),head(A,D),ck(D).
+f(A):- head(A,D),cm(D),tail(A,B),head(B,C),ca(C).
+f(A):- tail(A,B),head(B,C),head(A,D),ca(C),ce(D).
+f(A):- tail(A,B),head(B,C),ca(C),head(A,D),cd(D).
+f(A):- tail(A,B),head(B,C),head(A,D),ck(D),cd(C).
+f(A):- tail(A,B),head(B,C),cd(C),head(A,D),cm(D).
+f(A):- tail(A,B),head(B,C),head(A,D),cn(D),cd(C).
+f(A):- head(A,D),ch(D),tail(A,B),head(B,C),cd(C).
+f(A):- tail(A,B),head(A,D),cj(D),head(B,C),ce(C).
+f(A):- head(A,D),cl(D),tail(A,B),head(B,C),cf(C).
+f(A):- head(A,D),cl(D),tail(A,B),head(B,C),cg(C).
+f(A):- head(A,D),tail(A,B),cm(D),head(B,C),cg(C).
+f(A):- tail(A,B),head(B,C),cg(C),head(A,D),cd(D).
+f(A):- head(A,D),ck(D),tail(A,B),head(B,C),ch(C).
+f(A):- tail(A,B),head(A,D),cn(D),head(B,C),ch(C).
+f(A):- tail(A,B),head(A,D),ci(D),head(B,C),ch(C).
+f(A):- head(A,D),cb(D),tail(A,B),head(B,C),ch(C).
+f(A):- tail(A,B),head(A,D),head(B,C),ch(C),cc(D).
+f(A):- tail(A,B),head(B,C),ci(C),head(A,D),ck(D).
+f(A):- head(A,D),tail(A,B),head(B,C),ci(C),cn(D).
+f(A):- head(A,D),tail(A,B),head(B,C),ci(C),ch(D).
+f(A):- tail(A,B),head(B,C),head(A,D),cl(D),cj(C).
+f(A):- tail(A,B),head(B,C),cj(C),head(A,D),ch(D).
+f(A):- tail(A,B),head(A,D),cl(D),head(B,C),ck(C).
+f(A):- tail(A,B),head(B,C),ck(C),head(A,D),cm(D).
+f(A):- tail(A,B),head(B,C),head(A,D),cn(D),ck(C).
+f(A):- head(A,D),ce(D),tail(A,B),head(B,C),ck(C).
+f(A):- tail(A,B),head(B,C),cn(C),head(A,D),cl(D).
+f(A):- tail(A,B),head(B,C),cn(C),head(A,D),cf(D).
+f(A):- head(A,D),tail(A,B),cc(D),head(B,C),cn(C).
+f(A):- head(A,D),tail(A,B),head(B,C),cn(C),ca(D).
+f(A):- tail(A,B),head(B,C),head(A,D),ca(D),cm(C).
+% accuracy: 50.0
+% learning time: 600
+% program size: 313
+% predictions: ([0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0])

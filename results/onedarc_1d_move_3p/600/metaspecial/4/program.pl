@@ -1,0 +1,8 @@
+out(A,B,C):- my_succ(B,K),in(A,K,J),different_value(C,J),v1(F),different_value(C,F),in(A,H,C),add(G,H,B),add(G,I,H),my_succ(E,D),add(D,E,B).
+out(A,B,C):- v3(I),different_value(C,I),v0(J),different_value(C,J),my_succ(B,D),v1(H),different_value(C,H),in(A,B,G),different_value(C,G),in(A,F,C),lt(F,B),lt(D,E).
+out(A,B,C):- x2(F),my_succ(D,B),in(A,B,M),my_succ(E,D),in(A,E,C),my_succ(F,G),lt(G,B),different_value(C,O),in(A,K,M),add(B,K,L),in(A,N,O),lt(B,N),add(H,I,B),in(A,I,J),in(A,H,J).
+out(A,B,C):- x1(Q),in(A,B,R),in(A,Q,R),x2(I),my_succ(I,J),lt(J,B),different_value(O,C),in(A,L,C),add(K,L,B),add(K,M,L),in(A,N,O),add(B,P,N),my_succ(E,D),add(D,E,B),lt(B,F),my_succ(F,G),add(F,G,H).
+% accuracy: 85.71004159239453
+% learning time: 600
+% program size: 58
+% predictions: ([1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1], [0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])

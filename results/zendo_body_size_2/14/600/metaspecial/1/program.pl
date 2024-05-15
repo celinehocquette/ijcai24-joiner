@@ -1,0 +1,5 @@
+zendo(A):- piece(A,D),rhs(D),red(D),piece(A,I),violet(I),back(I),piece(A,G),yellow(G),strange(G),piece(A,J),other(J),black(J),piece(A,H),pink(H),front(H),piece(A,B),o1(B),piece(A,C),brown(C),piece(A,O),magenta(O),o4(O),piece(A,P),green(P),lhs(P),piece(A,N),o3(N),beige(N),piece(A,K),reversed(K),white(K),piece(A,F),side(F),orange(F),piece(A,E),blue(E),upright(E),piece(A,M),grey(M),o2(M),piece(A,L),diagonal(L),purple(L).
+% accuracy: 100.0
+% learning time: 600
+% program size: 44
+% predictions: ([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])

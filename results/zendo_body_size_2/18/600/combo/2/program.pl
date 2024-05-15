@@ -1,0 +1,55 @@
+zendo(A):- piece(A,B),o5(B),brown(B).
+zendo(A):- piece(A,B),o5(B),indigo(B).
+zendo(A):- piece(A,B),c2(B),o5(B).
+zendo(A):- piece(A,B),c7(B),o5(B).
+zendo(A):- piece(A,B),c1(B),o6(B).
+zendo(A):- piece(A,B),c2(B),o6(B).
+zendo(A):- piece(A,B),c9(B),o6(B).
+zendo(A):- piece(A,B),o4(B),violet(B).
+zendo(A):- piece(A,B),o4(B),cyan(B).
+zendo(A):- piece(A,B),c12(B),o4(B).
+zendo(A):- piece(A,B),grey(B),o7(B).
+zendo(A):- piece(A,B),o10(B),brown(B).
+zendo(A):- piece(A,B),o10(B),grey(B).
+zendo(A):- piece(A,B),o11(B),orange(B).
+zendo(A):- piece(A,B),o11(B),black(B).
+zendo(A):- piece(A,B),o11(B),size9(B).
+zendo(A):- piece(A,B),o12(B),pink(B).
+zendo(A):- piece(A,B),c7(B),o12(B).
+zendo(A):- piece(A,B),o13(B),brown(B).
+zendo(A):- piece(A,B),o13(B),cyan(B).
+zendo(A):- piece(A,B),size2(B),o14(B).
+zendo(A):- piece(A,B),c7(B),o14(B).
+zendo(A):- piece(A,B),size7(B),o15(B).
+zendo(A):- piece(A,B),o15(B),yellow(B).
+zendo(A):- piece(A,B),o15(B),c5(B).
+zendo(A):- piece(A,B),indigo(B),o16(B).
+zendo(A):- piece(A,B),size1(B),o18(B).
+zendo(A):- piece(A,B),c13(B),o18(B).
+zendo(A):- piece(A,B),o19(B),c5(B).
+zendo(A):- piece(A,B),size7(B),o20(B).
+zendo(A):- piece(A,B),o20(B),c9(B).
+zendo(A):- piece(A,B),size3(B),o21(B).
+zendo(A):- piece(A,B),red(B),o22(B).
+zendo(A):- piece(A,B),cyan(B),o22(B).
+zendo(A):- piece(A,B),c11(B),o22(B).
+zendo(A):- piece(A,B),o23(B),olive(B).
+zendo(A):- piece(A,B),pink(B),o24(B).
+zendo(A):- piece(A,B),o25(B),cyan(B).
+zendo(A):- piece(A,B),blue(B),rhs(B).
+zendo(A):- piece(A,B),reversed(B),blue(B).
+zendo(A):- piece(A,B),size3(B),c7(B).
+zendo(A):- c6(B),o2(B),piece(A,B).
+zendo(A):- piece(A,B),yellow(B),reversed(B).
+zendo(A):- piece(A,B),o1(B),white(B).
+zendo(A):- piece(A,B),o1(B),beige(B).
+zendo(A):- piece(A,B),olive(B),side(B).
+zendo(A):- piece(A,B),upright(B),c1(B).
+zendo(A):- piece(A,B),c1(B),diagonal(B).
+zendo(A):- piece(A,B),c3(B),lhs(B).
+zendo(A):- piece(A,B),strange(B),c12(B).
+zendo(A):- piece(A,B),c13(B),size8(B).
+% accuracy: 50.0
+% learning time: 600
+% program size: 204
+% predictions: ([0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1], [0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0])

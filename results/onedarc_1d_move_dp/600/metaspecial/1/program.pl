@@ -1,0 +1,10 @@
+out(A,B,C):- in(A,B,C),v8(C).
+out(A,B,C):- end_position(A,N),add(B,M,N),in(A,M,C),different_value(C,L),in(A,E,C),add(E,F,B),my_succ(D,E),in(A,H,C),add(G,H,B),add(B,G,I),in(A,J,L),add(B,J,K).
+out(A,B,C):- v0(J),in(A,B,I),different_value(I,J),my_succ(B,G),in(A,G,H),different_value(H,C),in(A,E,C),add(E,F,B),my_succ(D,E),in(A,L,C),add(K,L,B),add(B,K,M).
+out(A,B,C):- x2(H),v7(J),add(H,I,B),lt(H,I),in(A,B,K),different_value(K,J),v0(D),different_value(D,C),in(A,O,C),my_succ(E,F),add(E,F,G),add(F,G,B),add(L,N,B),add(B,L,M),add(N,B,M),add(P,Q,B),add(O,P,Q).
+out(A,B,C):- in(A,B,M),in(A,B,J),v0(K),different_value(J,K),v7(L),different_value(M,L),different_value(C,P),in(A,N,P),add(B,N,O),in(A,Q,C),my_succ(D,E),add(D,E,B),my_succ(F,D),my_succ(G,H),add(G,I,B),add(H,G,I),add(R,S,B),add(Q,R,S).
+out(A,B,C):- v7(I),end_position(A,M),in(A,B,J),different_value(J,I),add(B,K,M),add(K,L,B),v8(Q),in(A,B,G),v0(D),different_value(D,C),in(A,B,F),v1(H),different_value(G,H),in(A,E,F),lt(E,B),in(A,R,Q),add(B,S,R),in(A,N,C),add(N,O,P),add(O,P,B).
+% accuracy: 77.77777777777779
+% learning time: 600
+% program size: 87
+% predictions: ([0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])

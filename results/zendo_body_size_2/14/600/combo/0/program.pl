@@ -1,0 +1,49 @@
+zendo(A):- piece(A,B),green(B),o5(B).
+zendo(A):- piece(A,B),o5(B),yellow(B).
+zendo(A):- piece(A,B),c0(B),o5(B).
+zendo(A):- piece(A,B),c10(B),o5(B).
+zendo(A):- piece(A,B),o6(B),violet(B).
+zendo(A):- piece(A,B),olive(B),o6(B).
+zendo(A):- piece(A,B),o6(B),c9(B).
+zendo(A):- piece(A,B),c11(B),o6(B).
+zendo(A):- piece(A,B),blue(B),o7(B).
+zendo(A):- piece(A,B),olive(B),o7(B).
+zendo(A):- piece(A,B),c6(B),o7(B).
+zendo(A):- piece(A,B),c15(B),o7(B).
+zendo(A):- piece(A,B),pink(B),o8(B).
+zendo(A):- piece(A,B),c3(B),o8(B).
+zendo(A):- piece(A,B),violet(B),o10(B).
+zendo(A):- piece(A,B),brown(B),o12(B).
+zendo(A):- piece(A,B),c4(B),o12(B).
+zendo(A):- piece(A,B),o3(B),brown(B).
+zendo(A):- piece(A,B),o3(B),c4(B).
+zendo(A):- piece(A,B),c5(B),o3(B).
+zendo(A):- piece(A,B),c15(B),o3(B).
+zendo(A):- piece(A,B),o14(B),blue(B).
+zendo(A):- piece(A,B),c2(B),o14(B).
+zendo(A):- piece(A,B),o14(B),c11(B).
+zendo(A):- piece(A,B),c15(B),o14(B).
+zendo(A):- piece(A,B),red(B),o15(B).
+zendo(A):- piece(A,B),c9(B),o16(B).
+zendo(A):- piece(A,B),o16(B),c10(B).
+zendo(A):- piece(A,B),o17(B),c2(B).
+zendo(A):- piece(A,B),c13(B),o17(B).
+zendo(A):- piece(A,B),grey(B),o19(B).
+zendo(A):- piece(A,B),black(B),o21(B).
+zendo(A):- piece(A,B),c10(B),o21(B).
+zendo(A):- piece(A,B),o22(B),c1(B).
+zendo(A):- piece(A,B),o23(B),size3(B).
+zendo(A):- piece(A,B),c12(B),size1(B).
+zendo(A):- piece(A,B),c10(B),size4(B).
+zendo(A):- piece(A,B),size7(B),c1(B).
+zendo(A):- piece(A,B),reversed(B),pink(B).
+zendo(A):- piece(A,B),side(B),magenta(B).
+zendo(A):- piece(A,B),reversed(B),coral(B).
+zendo(A):- piece(A,B),other(B),c5(B).
+zendo(A):- piece(A,B),c6(B),front(B).
+zendo(A):- piece(A,B),back(B),c8(B).
+zendo(A):- piece(A,B),c0(B),lhs(B).
+% accuracy: 47.0
+% learning time: 600
+% program size: 180
+% predictions: ([1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1])
